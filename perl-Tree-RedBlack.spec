@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Tree
 %define	pnam	RedBlack
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tree-RedBlack perl module
 Summary(pl):	Modu³ perla Tree-RedBlack
 Name:		perl-Tree-RedBlack
 Version:	0.3
-Release:	5
-
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Tree-RedBlack perl module.
 Modu³ perla Tree-RedBlack.
 
 %prep
-%setup -q -n Tree-RedBlack-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
