@@ -4,7 +4,7 @@
 Summary:	Tree::RedBlack - Perl implementation of Red/Black tree, a type of balanced tree.
 Name:		perl-Tree-RedBlack
 Version:	0.3
-Release:	6
+Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
