@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tree
 %define	pnam	RedBlack
-Summary:	Tree::RedBlack perl module
-Summary(pl):	Modu³ perla Tree::RedBlack
+Summary:	Tree::RedBlack - Perl implementation of Red/Black tree, a type of balanced tree.
 Name:		perl-Tree-RedBlack
 Version:	0.3
 Release:	6
@@ -15,10 +14,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tree::RedBlack perl module.
-
-%description -l pl
-Modu³ perla Tree::RedBlack.
+This is a perl implementation of the Red/Black tree algorithm found in
+the book "Algorithms", by Cormen, Leiserson & Rivest (more commonly known
+as "CLR" or "The White Book").  A Red/Black tree is a binary tree which
+remains "balanced"- that is, the longest length from root to a node is
+at most one more than the shortest such length.  It is fairly efficient;
+no operation takes more than O(lg(n)) time.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
