@@ -2,9 +2,9 @@
 Summary:	Tree-RedBlack perl module
 Summary(pl):	Modu³ perla Tree-RedBlack
 Name:		perl-Tree-RedBlack
-Version:	0.2
-Release:	3
-Copyright:	GPL
+Version:	0.3
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Tree/Tree-RedBlack-%{version}.tar.gz
