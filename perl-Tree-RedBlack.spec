@@ -2,7 +2,7 @@
 %define	pdir	Tree
 %define	pnam	RedBlack
 Summary:	Tree::RedBlack - Perl implementation of Red/Black tree, a type of balanced tree
-Summary(pl):	Tree::RedBlack - implementacja drzew czerwono-czarnych
+Summary(pl):	Tree::RedBlack - implementacja perlowa drzew czerwono-czarnych
 Name:		perl-Tree-RedBlack
 Version:	0.3
 Release:	9
