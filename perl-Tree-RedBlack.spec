@@ -5,7 +5,7 @@ Summary:	Tree::RedBlack - Perl implementation of Red/Black tree, a type of balan
 Summary(pl):	Tree::RedBlack - implementacja drzew czerwono-czarnych
 Name:		perl-Tree-RedBlack
 Version:	0.3
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
