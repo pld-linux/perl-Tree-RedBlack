@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tree
 %define	pnam	RedBlack
-Summary:	Tree-RedBlack perl module
-Summary(pl):	Modu³ perla Tree-RedBlack
+Summary:	Tree::RedBlack perl module
+Summary(pl):	Modu³ perla Tree::RedBlack
 Name:		perl-Tree-RedBlack
 Version:	0.3
 Release:	6
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tree-RedBlack perl module.
+Tree::RedBlack perl module.
 
 %description -l pl
-Modu³ perla Tree-RedBlack.
+Modu³ perla Tree::RedBlack.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
