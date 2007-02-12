@@ -2,7 +2,7 @@
 %define		pdir	Tree
 %define		pnam	RedBlack
 Summary:	Tree::RedBlack - Perl implementation of Red/Black tree, a type of balanced tree
-Summary(pl):	Tree::RedBlack - implementacja perlowa drzew czerwono-czarnych
+Summary(pl.UTF-8):   Tree::RedBlack - implementacja perlowa drzew czerwono-czarnych
 Name:		perl-Tree-RedBlack
 Version:	0.3
 Release:	10
@@ -23,13 +23,13 @@ which remains "balanced" - that is, the longest length from root to a
 node is at most one more than the shortest such length. It is fairly
 efficient; no operation takes more than O(lg(n)) time.
 
-%description -l pl
-To jest perlowa implementacja algorytmu drzew czerwono-czarnych, ktÛr±
-moøna znaleºÊ w ksi±øce "Algorithms" autorstwa Cormena, Leisersona i
-Rivesta (czÍ∂ciej znanej jako "CLR" lub "Bia≥a ksiÍga"). Drzewo
-czerwono-czarne to binarne drzewo, ktÛre pozostaje wywaøone - czyli
-najd≥uøsza droga od korzenia do li∂cia jest najwyøej o jeden d≥uøsza
-od najkrÛtszej. Jest do∂Ê wydajne; øadna operacja nie trwa d≥uøej niø
+%description -l pl.UTF-8
+To jest perlowa implementacja algorytmu drzew czerwono-czarnych, kt√≥rƒÖ
+mo≈ºna znale≈∫ƒá w ksiƒÖ≈ºce "Algorithms" autorstwa Cormena, Leisersona i
+Rivesta (czƒô≈õciej znanej jako "CLR" lub "Bia≈Ça ksiƒôga"). Drzewo
+czerwono-czarne to binarne drzewo, kt√≥re pozostaje wywa≈ºone - czyli
+najd≈Çu≈ºsza droga od korzenia do li≈õcia jest najwy≈ºej o jeden d≈Çu≈ºsza
+od najkr√≥tszej. Jest do≈õƒá wydajne; ≈ºadna operacja nie trwa d≈Çu≈ºej ni≈º
 O(log(n)).
 
 %prep
