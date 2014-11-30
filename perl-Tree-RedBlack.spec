@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Tree
 %define		pnam	RedBlack
+%include	/usr/lib/rpm/macros.perl
 Summary:	Tree::RedBlack - Perl implementation of Red/Black tree, a type of balanced tree
 Summary(pl.UTF-8):	Tree::RedBlack - implementacja perlowa drzew czerwono-czarnych
 Name:		perl-Tree-RedBlack
@@ -10,6 +10,7 @@ License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	46a749fa2aa047d5a044ecf0a0fbc925
+URL:		http://search.cpan.org/dist/Tree-RedBlack/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
